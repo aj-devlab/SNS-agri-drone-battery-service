@@ -3,111 +3,106 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SNS Drone Battery Service</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>SNS Drone Services</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="logo">
-      SNS
-    </div>
-    <ul class="nav-links">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#why">Why Us</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li>
-        <a href="tel:+916369409809" class="nav-btn">Call</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">SNS<span>.</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why SNS</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
   <!-- HERO -->
-  <section class="hero">
+  <section id="home" class="hero">
     <div class="hero-content">
-      <h1>SNS Agriculture Drone Battery Service</h1>
-      <p>Reliable power solutions for agriculture drones</p>
+      <h1>Future-Ready <span>Drone Services</span></h1>
+      <p>Powering Agriculture with Advanced Drone & Battery Solutions</p>
       <div class="hero-buttons">
-        <a href="tel:+916369409809" class="btn primary">Call Now</a>
-        <a href="#services" class="btn secondary">Our Services</a>
+        <a href="#services" class="btn primary">Explore Services</a>
+        <a href="#contact" class="btn secondary">Contact SNS</a>
       </div>
     </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section class="about">
-    <div class="container">
-      <h2>Why SNS?</h2>
-      <p>
-        Low battery should never stop agricultural work.
-        We provide professional drone battery servicing, repair,
-        replacement and power accessories designed for field reliability.
-      </p>
-    </div>
+    <div class="drone-glow"></div>
   </section>
 
   <!-- SERVICES -->
-  <section class="services" id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="service-grid">
+  <section id="services" class="section">
+    <h2 class="section-title">Our Services</h2>
 
-        <div class="card">
-          <h3>🔋 Drone Battery Service</h3>
-          <p>Health check, balancing and performance restoration.</p>
-        </div>
+    <div class="card-grid">
+      <div class="card">
+        <h3>🚁 Agriculture Drone Services</h3>
+        <p>Field-ready drone solutions designed for modern farming.</p>
+      </div>
 
-        <div class="card">
-          <h3>⚡ Battery Repair & Replacement</h3>
-          <p>Faulty cells, damaged packs and upgrades.</p>
-        </div>
+      <div class="card">
+        <h3>🔋 Battery Repair & Balancing</h3>
+        <p>Li-Po diagnostics, cell balancing & capacity recovery.</p>
+      </div>
 
-        <div class="card">
-          <h3>🔌 Power Cables & Spares</h3>
-          <p>High-quality connectors and power accessories.</p>
-        </div>
+      <div class="card">
+        <h3>⚙️ Drone Maintenance</h3>
+        <p>Calibration, inspection & performance optimization.</p>
+      </div>
 
-        <div class="card">
-          <h3>🚁 Agriculture Drone Support</h3>
-          <p>Battery solutions for all agri-drone models.</p>
-        </div>
-
+      <div class="card">
+        <h3>🔌 Power Cables & Spares</h3>
+        <p>High-quality connectors & drone power accessories.</p>
       </div>
     </div>
   </section>
 
-  <!-- WHY CHOOSE -->
-  <section class="why">
-    <div class="container">
-      <h2>Why Choose SNS</h2>
-      <div class="why-grid">
-        <span>✔ Local & Trusted</span>
-        <span>✔ Agriculture Focused</span>
-        <span>✔ Fast Turnaround</span>
-        <span>✔ Affordable Pricing</span>
-      </div>
+  <!-- WHY SNS -->
+  <section id="why" class="section dark">
+    <h2 class="section-title">Why Choose SNS</h2>
+
+    <div class="why-grid">
+      <div class="why-item">✔ Agriculture-Focused Expertise</div>
+      <div class="why-item">✔ Safe Battery Handling</div>
+      <div class="why-item">✔ Fast Turnaround Time</div>
+      <div class="why-item">✔ Trusted Local Service</div>
+    </div>
+  </section>
+
+  <!-- BATTERY EXPERTISE -->
+  <section class="section">
+    <h2 class="section-title">Battery Expertise</h2>
+
+    <div class="timeline">
+      <div class="step">🔍 Health Diagnostics</div>
+      <div class="step">⚡ Cell Balancing</div>
+      <div class="step">🔄 Capacity Optimization</div>
+      <div class="step">🛡 Safety & Lifecycle Improvement</div>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section class="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>
-        📍 6/280, Poovan Kottai,<br>
-        Palacode, Dharmapuri – 636808
-      </p>
-      <p>📞 <a href="tel:+916369409809">+916369409809</a></p>
-      <a class="btn primary" href="tel:+916369409809">Call Now</a>
+  <section id="contact" class="section dark">
+    <h2 class="section-title">Contact SNS</h2>
+
+    <div class="contact-box">
+      <p>📍 Dharmapuri, Tamil Nadu</p>
+      <p>📞 <a href="tel:+916369409809">+91 63694 09809</a></p>
+      <a class="btn whatsapp" 
+         href="https://wa.me/916369409809" 
+         target="_blank">
+         💬 Chat on WhatsApp
+      </a>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer>
-    <p>© 2026 SNS Drone Battery Service</p>
-    <small>Powered by aj-devlab</small>
+    © 2026 SNS Drone Services. All rights reserved.
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
